@@ -1,0 +1,14 @@
+{
+	"synonims": [
+		["YANDEX", "ЯНДЕКС"],
+		["ПРОЕКТ", "ЗАДАЧА", "ЗАДАНИЕ"]
+	],
+
+	"generalization": [
+		{ "ЯП": ["PYTHON", "JAVA", "C++", "PHP", "CSS", "HTML", "C", "RUBY", "JAVASCRIPT", "GO"] },
+		{ "КОМПАНИЯ": ["APPLE", "GOOGLE", "YANDEX", "ЯНДЕКС", "SAMSUNG", "MICROSOFT", "ADOBE"] },
+		{ "ЧЕЛОВЕК": ["ПОЛЬЗОВАТЕЛЬ", "РАЗРАБОТЧИК", "ЧЕЛОВЕК", "КЛИЕНТ", "СПЕЦИАЛИСТ", "ИГРОК", 
+		  "ДРУГ", "АНАЛИТИК", "ЗАКАЗЧИК", "ПРОГРАММИСТ", "СОТРУДНИК"] },
+		{ "ПРОДУКТ": ["GOOGLE CHROME", "APP STORE", "UNITY 3D", "IPHONE", "GOOGLE PIXEL", "AZURE", "ICLOUD"]}
+	]
+}
