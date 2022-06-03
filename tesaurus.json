@@ -1,14 +1,18 @@
 {
 	"synonims": [
 		["YANDEX", "ЯНДЕКС"],
-		["ПРОЕКТ", "ЗАДАЧА", "ЗАДАНИЕ"]
+		["ПРОЕКТ", "ЗАДАЧА", "ЗАДАНИЕ"],
+		["ПРОГРАММИСТ", "РАЗРАБОТЧИК", "РАБОТНИК", "СПЕЦИАЛИСТ"],
+		["СОЗДАТЬ", "РАЗРАБОТАТЬ", "СДЕЛАТЬ", "ИЗОБРЕСТИ", "ПОЛУЧИТЬ"]
 	],
 
 	"generalization": [
-		{ "ЯП": ["PYTHON", "JAVA", "C++", "PHP", "CSS", "HTML", "C", "RUBY", "JAVASCRIPT", "GO"] },
-		{ "КОМПАНИЯ": ["APPLE", "GOOGLE", "YANDEX", "ЯНДЕКС", "SAMSUNG", "MICROSOFT", "ADOBE"] },
+		{ "ЯП": ["PYTHON", "JAVA", "C++", "PHP", "CSS", "HTML", "C", "RUBY", "JAVASCRIPT", "GO"]},
+		{ "WEB": ["HTML", "CSS", "JAVASCRIPT"]},
+		{ "КОМПАНИЯ": ["APPLE", "GOOGLE", "YANDEX", "ЯНДЕКС", "SAMSUNG", "MICROSOFT", "ADOBE"]},
 		{ "ЧЕЛОВЕК": ["ПОЛЬЗОВАТЕЛЬ", "РАЗРАБОТЧИК", "ЧЕЛОВЕК", "КЛИЕНТ", "СПЕЦИАЛИСТ", "ИГРОК", 
-		  "ДРУГ", "АНАЛИТИК", "ЗАКАЗЧИК", "ПРОГРАММИСТ", "СОТРУДНИК"] },
-		{ "ПРОДУКТ": ["GOOGLE CHROME", "APP STORE", "UNITY 3D", "IPHONE", "GOOGLE PIXEL", "AZURE", "ICLOUD"]}
+		  "ДРУГ", "АНАЛИТИК", "ЗАКАЗЧИК", "ПРОГРАММИСТ", "СОТРУДНИК"]},
+		{ "ПРОДУКТ": ["GOOGLE CHROME", "APP STORE", "UNITY 3D", "IPHONE", "GOOGLE PIXEL", "AZURE", "ICLOUD"]},
+		{ "СФЕРА": ["WEB", "ML", "MACHINE LEARNING", "СОЗДАНИЕ САЙТОВ", "САЙТ", "АДМИНИСТРИРОВАНИЕ", "СЕТЬ"]}
 	]
 }

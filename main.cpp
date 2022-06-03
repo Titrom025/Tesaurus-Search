@@ -45,7 +45,7 @@ WordContext* processContext(const vector<Word*>& wordVector, int windowSize,
 void addNgramEntryInText(WordContext* context,
                          unordered_map <wstring, WordContext*>* NGramms,
                          const string& filePath, int positiion,
-                         unordered_map<wstring, vector<wstring>> &relations) {
+                         unordered_map<wstring, vector<pair<wstring, bool>>> &relations) {
     wstring nornalForm = context->normalizedForm;
     if (NGramms->find(nornalForm) == NGramms->end())
         NGramms->emplace(nornalForm, context);
@@ -57,7 +57,8 @@ void addNgramEntryInText(WordContext* context,
     ngram->textEntries.at(filePath).push_back(positiion);
 
     if (relations.find(nornalForm) != relations.end()) {
-        for (wstring &synonim : relations[nornalForm]) {
+        for (auto &synonimPair : relations[nornalForm]) {
+            wstring synonim = synonimPair.first;
             auto* synonimContext = new WordContext(synonim);
             if (NGramms->find(synonim) == NGramms->end())
                 NGramms->emplace(synonim, synonimContext);
@@ -65,8 +66,6 @@ void addNgramEntryInText(WordContext* context,
             auto &synonimNgram= NGramms->at(synonim);
             if (synonimNgram->textEntries.find(filePath) == synonimNgram->textEntries.end())
                 synonimNgram->textEntries.emplace(filePath, vector<int>{});
-
-//            synonimNgram->textEntries.at(filePath).push_back(positiion);
         }
     }
 }
@@ -76,7 +75,7 @@ void handleWord(Word* word,
                 unordered_map <wstring, WordContext*> *NGrams,
                 int windowSize, const string& filePath,
                 const int wordPosition,
-                unordered_map<wstring, vector<wstring>> &relations) {
+                unordered_map<wstring, vector<pair<wstring, bool>>> &relations) {
     if (windowSize <= leftWordContext->size()) {
         WordContext* phraseContext = processContext(*leftWordContext, windowSize, NGrams);
         addNgramEntryInText(phraseContext, NGrams, filePath, wordPosition, relations);
@@ -92,7 +91,7 @@ void handleWord(Word* word,
 void handleFile(const string& filepath, const vector<Word*>& fileContent,
                 unordered_map <wstring, vector<Word*>> *dictionary,
                 unordered_map <wstring, WordContext*> *NGrams,
-                int windowSize, unordered_map<wstring, vector<wstring>> &relations) {
+                int windowSize, unordered_map<wstring, vector<pair<wstring, bool>>> &relations) {
     vector<Word*> leftWordContext;
 
     int wordPosition = 0;
@@ -171,8 +170,9 @@ unordered_map <string, vector<Word*>> readAllTexts(const vector<string>& files,
 }
 
 void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
+                   unordered_map <wstring, vector<Word*>> *dictionary,
                    const wstring& request, const unordered_map <string, vector<Word*>>& filesContent,
-                   double averageLength, unordered_map<wstring, vector<wstring>> &relations) {
+                   double averageLength, unordered_map<wstring, vector<pair<wstring, bool>>> &relations) {
     auto &f = std::use_facet<std::ctype<wchar_t>>(std::locale());
 
     vector<wstring> requestWords;
@@ -181,7 +181,18 @@ void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
         pos = request.find_first_of(' ', beg + 1);
         wstring wordStr = request.substr(beg, pos - beg);
         f.toupper(&wordStr[0], &wordStr[0] + wordStr.size());
-        requestWords.push_back(wordStr);
+
+        if (dictionary->find(wordStr) == dictionary->end()) {
+            Word *newWord = new Word();
+            newWord->word = wordStr;
+            newWord->partOfSpeech = L"UNKW";
+            dictionary->emplace(newWord->word, vector<Word*> {newWord});
+        }
+
+        vector<Word *> &words = dictionary->at(wordStr);
+        wstring normalForm = words.at(0)->word;
+
+        requestWords.push_back(normalForm);
     }
 
     vector<pair<string, double>> filenameToScore;
@@ -201,11 +212,14 @@ void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
                 if (relations.find(requestWord) != relations.end()) {
                     auto wordsToHandle = relations[requestWord];
                     for (const auto& requestWordSynonim : wordsToHandle) {
-                        if (phraseDescriptions.find(requestWordSynonim) != phraseDescriptions.end()) {
-                            auto descriptionSynonim  = phraseDescriptions.find(requestWordSynonim);
+                        if (phraseDescriptions.find(requestWordSynonim.first) != phraseDescriptions.end()) {
+                            auto descriptionSynonim  = phraseDescriptions.find(requestWordSynonim.first);
                             for (auto &word: descriptionSynonim->second) {
                                 if (word->docName == filename) {
-                                    score += 0.7 * word->idf * (word->tf * (K1 + 1)) / (word->tf + K1 * (1 - B + B * fileSize / averageLength));
+                                    if (requestWordSynonim.second)
+                                        score += 0.3 * word->idf * (word->tf * (K1 + 1)) / (word->tf + K1 * (1 - B + B * fileSize / averageLength));
+                                    else
+                                        score += 0.9 * word->idf * (word->tf * (K1 + 1)) / (word->tf + K1 * (1 - B + B * fileSize / averageLength));
                                 }
                             }
                         }
@@ -221,7 +235,7 @@ void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
     } compDescription;
     sort(filenameToScore.begin(), filenameToScore.end(), compDescription);
 
-    int OUTPUT_COUNT = 15;
+    int OUTPUT_COUNT = 10;
     int count = 0;
     for (const auto& scorePair : filenameToScore) {
         if (count == OUTPUT_COUNT)
@@ -236,7 +250,7 @@ void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
                 if (phraseDescriptions.find(requestWord) != phraseDescriptions.end()) {
                     auto description = phraseDescriptions.find(requestWord);
                     for (auto &word: description->second) {
-                        if (word->docName == filename && !word->positions.empty()) {
+                        if (word->docName == filename) {
                             wcout << " - " << requestWord << " - Count: " << word->positions.size() << ", TF: " << word->tf << ", IDF: " << word->idf << endl;
                         }
                     }
@@ -244,11 +258,11 @@ void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
                 if (relations.find(requestWord) != relations.end()) {
                     auto wordsToHandle = relations[requestWord];
                     for (const auto& requestWordSynonim : wordsToHandle) {
-                        if (phraseDescriptions.find(requestWordSynonim) != phraseDescriptions.end()) {
-                            auto descriptionSynonim  = phraseDescriptions.find(requestWordSynonim);
+                        if (phraseDescriptions.find(requestWordSynonim.first) != phraseDescriptions.end()) {
+                            auto descriptionSynonim  = phraseDescriptions.find(requestWordSynonim.first);
                             for (auto &word: descriptionSynonim->second) {
                                 if (word->docName == filename && !word->positions.empty()) {
-                                    wcout << " - Addition word: " << requestWordSynonim << " - Count: " << word->positions.size() << ", TF: " << word->tf << ", IDF: " << word->idf << endl;
+                                    wcout << "    - " << requestWordSynonim.first << " - Count: " << word->positions.size() << ", TF: " << word->tf << ", IDF: " << word->idf << endl;
                                 }
                             }
                         }
@@ -259,8 +273,8 @@ void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
     }
 }
 
-void findTexts(const string& dictPath, const string& corpusPath, const wstring& request,
-               unordered_map<wstring, vector<wstring>> &relations) {
+void findTexts(const string& dictPath, const string& corpusPath,
+               unordered_map<wstring, vector<pair<wstring, bool>>> &relations, vector<wstring> &requests) {
     auto dictionary = initDictionary(dictPath);
     vector<string> files = getFilesFromDir(corpusPath);
 
@@ -300,13 +314,17 @@ void findTexts(const string& dictPath, const string& corpusPath, const wstring& 
         }
     }
 
-    handleRequest(phraseDescriptions, request, filesContent, averageLength, relations);
-
     std::chrono::steady_clock::time_point end = std::chrono::steady_clock::now();
-    std::cout << "Time difference = " << std::chrono::duration_cast<std::chrono::seconds>(end - begin).count() << "[s]" << std::endl;
+    std::cout << "\nIndexation time = " << std::chrono::duration_cast<std::chrono::seconds>(end - begin).count() << "[s]" << std::endl;
+
+    int requestNumber = 1;
+    for (const wstring& request : requests) {
+        wcout << endl << "Request " << requestNumber++ << ": " << request << endl;
+        handleRequest(phraseDescriptions, &dictionary, request, filesContent, averageLength, relations);
+    }
 }
 
-void loadTesaurus(const string& tesaurusPath, unordered_map<wstring, vector<wstring>> &relations) {
+void loadTesaurus(const string& tesaurusPath, unordered_map<wstring, vector<pair<wstring, bool>>>  &relations) {
     nlohmann::json tesaurusJson;
     ifstream modelStream(tesaurusPath);
     modelStream >> tesaurusJson;
@@ -320,10 +338,10 @@ void loadTesaurus(const string& tesaurusPath, unordered_map<wstring, vector<wstr
         }
 
         for (const wstring& word : synonims) {
-            vector<wstring> synonimsForWord;
+            vector<pair<wstring, bool>> synonimsForWord;
             for (const wstring& newSynonim : synonims) {
                 if (newSynonim != word)
-                    synonimsForWord.push_back(newSynonim);
+                    synonimsForWord.emplace_back(newSynonim, true);
             }
             relations.emplace(word, synonimsForWord);
         }
@@ -338,16 +356,26 @@ void loadTesaurus(const string& tesaurusPath, unordered_map<wstring, vector<wstr
                 wstring wideValue = wstring_convert<codecvt_utf8<wchar_t>>().from_bytes(value.data());
 
                 if (relations.find(wkey) == relations.end())
-                    relations.emplace(wkey, vector<wstring>{wideValue});
-                else
-                    relations[wkey].push_back(wideValue);
+                    relations.emplace(wkey, vector<pair<wstring, bool>> {});
+                relations[wkey].emplace_back(wideValue, false);
 
                 if (relations.find(wideValue) == relations.end())
-                    relations.emplace(wideValue, vector<wstring>{wkey});
-                else
-                    relations[wideValue].push_back(wkey);
+                    relations.emplace(wideValue, vector<pair<wstring, bool>> {});
+                relations[wideValue].emplace_back(wkey, false);
             }
         }
+    }
+}
+
+void loadRequests(const string& requestsPath, vector<wstring> &requests) {
+    nlohmann::json requestsJson;
+    ifstream modelStream(requestsPath);
+    modelStream >> requestsJson;
+
+    for (const auto& request : requestsJson) {
+        string value = request.get<string>();
+        wstring wideValue = wstring_convert<codecvt_utf8<wchar_t>>().from_bytes(value.data());
+        requests.push_back(wideValue);
     }
 }
 
@@ -359,14 +387,14 @@ int main() {
     string dictPath = "dict_opcorpora_clear.txt";
     string corpusPath = "/Users/titrom/Desktop/Computational Linguistics/Articles";
     string tesaurusPath = "/Users/titrom/Desktop/Computational Linguistics/Lab 5/tesaurus.json";
+    string requestsPath = "/Users/titrom/Desktop/Computational Linguistics/Lab 5/requests.json";
 
-    wstring request = L"Код PYTHON";
-//    wstring request = L"Код ЯП";
-//    wstring request = L"Яндекс конференция";
+    vector<wstring> requests;
+    loadRequests(requestsPath, requests);
 
-    unordered_map<wstring, vector<wstring>> relations;
+    unordered_map<wstring, vector<pair<wstring, bool>>> relations;
     loadTesaurus(tesaurusPath, relations);
 
-    findTexts(dictPath, corpusPath, request, relations);
+    findTexts(dictPath, corpusPath, relations, requests);
     return 0;
 }
