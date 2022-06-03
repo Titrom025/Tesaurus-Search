@@ -1,0 +1,815 @@
+Request 1: Продукт Apple
+Result 1 | it-market-and-quarantine-measures.txt | Score: 0.00736121 | File size: 649
+ - APPLE - Count: 0, TF: 0, IDF: 0,431798 | Entry
+    - КОМПАНИЯ - Count: 14, TF: 0,0215716, IDF: 0,267606 | Up/Down
+Result 2 | kak-nastroit-rabotu-komandy-v-rezhime-avrala.txt | Score: 0.00663735 | File size: 398
+ - ПРОДУКТ - Count: 1, TF: 0,00251256, IDF: 0,443697 | Entry
+ - APPLE - Count: 0, TF: 0, IDF: 0,431798 | Entry
+    - КОМПАНИЯ - Count: 3, TF: 0,00753769, IDF: 0,267606 | Up/Down
+Result 3 | virtual-reality-devices.txt | Score: 0.0060973 | File size: 587
+ - ПРОДУКТ - Count: 1, TF: 0,00170358, IDF: 0,443697 | Entry
+ - APPLE - Count: 0, TF: 0, IDF: 0,431798 | Entry
+    - КОМПАНИЯ - Count: 7, TF: 0,011925, IDF: 0,267606 | Up/Down
+Result 4 | gde-tusit-ajtishniku-v-moskve.txt | Score: 0.00538971 | File size: 584
+ - ПРОДУКТ - Count: 2, TF: 0,00342466, IDF: 0,443697 | Entry
+ - APPLE - Count: 0, TF: 0, IDF: 0,431798 | Entry
+    - КОМПАНИЯ - Count: 3, TF: 0,00513699, IDF: 0,267606 | Up/Down
+Result 5 | how-to-become-tester.txt | Score: 0.00493021 | File size: 849
+ - ПРОДУКТ - Count: 2, TF: 0,00235571, IDF: 0,443697 | Entry
+ - APPLE - Count: 0, TF: 0, IDF: 0,431798 | Entry
+    - КОМПАНИЯ - Count: 9, TF: 0,0106007, IDF: 0,267606 | Up/Down
+Result 6 | kak-kubernetes-povyshaet-cennost-it-navykov.txt | Score: 0.00364482 | File size: 792
+ - ПРОДУКТ - Count: 2, TF: 0,00252525, IDF: 0,443697 | Entry
+ - APPLE - Count: 0, TF: 0, IDF: 0,431798 | Entry
+    - КОМПАНИЯ - Count: 4, TF: 0,00505051, IDF: 0,267606 | Up/Down
+Result 7 | data-scientists-spend-most-of-their-time-not-on-products.txt | Score: 0.00345766 | File size: 777
+ - ПРОДУКТ - Count: 1, TF: 0,001287, IDF: 0,443697 | Entry
+ - APPLE - Count: 0, TF: 0, IDF: 0,431798 | Entry
+    - КОМПАНИЯ - Count: 6, TF: 0,00772201, IDF: 0,267606 | Up/Down
+Result 8 | typical-day-of-a-software-development-chief.txt | Score: 0.00310507 | File size: 802
+ - ПРОДУКТ - Count: 3, TF: 0,00374065, IDF: 0,443697 | Entry
+Result 9 | pochemu-vam-stoit-vybrat-node-js-dlja-razrabotki-servernyh-prilozhenij.txt | Score: 0.00296314 | File size: 1109
+ - ПРОДУКТ - Count: 5, TF: 0,00450857, IDF: 0,443697 | Entry
+Result 10 | scrum-advices.txt | Score: 0.00286423 | File size: 730
+ - ПРОДУКТ - Count: 2, TF: 0,00273973, IDF: 0,443697 | Entry
+ - APPLE - Count: 0, TF: 0, IDF: 0,431798 | Entry
+    - КОМПАНИЯ - Count: 1, TF: 0,00136986, IDF: 0,267606 | Up/Down
+
+Request 2: IT компания
+Result 1 | kak-nastroit-rabotu-komandy-v-rezhime-avrala.txt | Score: 0.0179949 | File size: 398
+ - IT - Count: 2, TF: 0,00502513, IDF: 0,853872 | Entry
+ - КОМПАНИЯ - Count: 3, TF: 0,00753769, IDF: 0,267606 | Entry
+Result 2 | it-market-and-quarantine-measures.txt | Score: 0.0179353 | File size: 649
+ - IT - Count: 2, TF: 0,00308166, IDF: 0,853872 | Entry
+ - КОМПАНИЯ - Count: 14, TF: 0,0215716, IDF: 0,267606 | Entry
+Result 3 | virtual-reality-devices.txt | Score: 0.0150349 | File size: 587
+ - КОМПАНИЯ - Count: 7, TF: 0,011925, IDF: 0,267606 | Entry
+    - GOOGLE - Count: 5, TF: 0,00851789, IDF: 0,309804 | Up/Down
+    - SAMSUNG - Count: 4, TF: 0,00681431, IDF: 0,443697 | Up/Down
+Result 4 | speech-recoginition-in-the-browser.txt | Score: 0.0108013 | File size: 214
+ - КОМПАНИЯ - Count: 0, TF: 0, IDF: 0,267606 | Entry
+    - GOOGLE - Count: 2, TF: 0,00934579, IDF: 0,309804 | Up/Down
+    - MICROSOFT - Count: 1, TF: 0,0046729, IDF: 0,408935 | Up/Down
+Result 5 | how-to-become-tester.txt | Score: 0.00870201 | File size: 849
+ - IT - Count: 2, TF: 0,00235571, IDF: 0,853872 | Entry
+ - КОМПАНИЯ - Count: 9, TF: 0,0106007, IDF: 0,267606 | Entry
+Result 6 | kak-stat-testirovshhikom-s-nulja.txt | Score: 0.00418753 | File size: 1438
+ - IT - Count: 3, TF: 0,00208623, IDF: 0,853872 | Entry
+ - КОМПАНИЯ - Count: 9, TF: 0,00625869, IDF: 0,267606 | Entry
+Result 7 | data-scientists-spend-most-of-their-time-not-on-products.txt | Score: 0.00394048 | File size: 777
+ - КОМПАНИЯ - Count: 6, TF: 0,00772201, IDF: 0,267606 | Entry
+Result 8 | sysadmin-survival-guide.txt | Score: 0.00330386 | File size: 1297
+ - IT - Count: 1, TF: 0,00077101, IDF: 0,853872 | Entry
+ - КОМПАНИЯ - Count: 9, TF: 0,00693909, IDF: 0,267606 | Entry
+Result 9 | gde-tusit-ajtishniku-v-moskve.txt | Score: 0.00315779 | File size: 584
+ - КОМПАНИЯ - Count: 3, TF: 0,00513699, IDF: 0,267606 | Entry
+Result 10 | meltdown-spectre-vulnerabilities-overview.txt | Score: 0.00300414 | File size: 1249
+ - КОМПАНИЯ - Count: 5, TF: 0,0040032, IDF: 0,267606 | Entry
+    - APPLE - Count: 1, TF: 0,000800641, IDF: 0,431798 | Up/Down
+    - GOOGLE - Count: 5, TF: 0,0040032, IDF: 0,309804 | Up/Down
+    - MICROSOFT - Count: 1, TF: 0,000800641, IDF: 0,408935 | Up/Down
+
+Request 3: Какой самый лучший ЯП
+Result 1 | from-programmer-to-manager.txt | Score: 0.050192 | File size: 54
+ - КАКОЙ - Count: 1, TF: 0,0185185, IDF: 0,275724 | Entry
+ - САМЫЙ - Count: 1, TF: 0,0185185, IDF: 0,259637 | Entry
+Result 2 | kak-sdelat-tekst-gradientom-prostoj-css-trjuk.txt | Score: 0.029931 | File size: 228
+ - ЯП - Count: 0, TF: 0, IDF: 0,275724 | Entry
+    - CSS - Count: 4, TF: 0,0175439, IDF: 0,638272 | Up/Down
+    - JAVASCRIPT - Count: 1, TF: 0,00438596, IDF: 0,585027 | Up/Down
+Result 3 | speech-recoginition-in-the-browser.txt | Score: 0.0294873 | File size: 214
+ - САМЫЙ - Count: 1, TF: 0,0046729, IDF: 0,259637 | Entry
+ - ЛУЧШИЙ - Count: 1, TF: 0,0046729, IDF: 0,721246 | Entry
+ - ЯП - Count: 0, TF: 0, IDF: 0,275724 | Entry
+    - JAVASCRIPT - Count: 2, TF: 0,00934579, IDF: 0,585027 | Up/Down
+Result 4 | frontend-roadmap-2021.txt | Score: 0.0243703 | File size: 844
+ - КАКОЙ - Count: 1, TF: 0,00118483, IDF: 0,275724 | Entry
+ - ЯП - Count: 0, TF: 0, IDF: 0,275724 | Entry
+    - CSS - Count: 12, TF: 0,014218, IDF: 0,638272 | Up/Down
+    - HTML - Count: 8, TF: 0,00947867, IDF: 0,638272 | Up/Down
+    - JAVASCRIPT - Count: 10, TF: 0,0118483, IDF: 0,585027 | Up/Down
+Result 5 | es5-es6-or-typescript.txt | Score: 0.0233527 | File size: 220
+ - ЯП - Count: 0, TF: 0, IDF: 0,275724 | Entry
+    - JAVASCRIPT - Count: 4, TF: 0,0181818, IDF: 0,585027 | Up/Down
+Result 6 | js-and-c-fps.txt | Score: 0.0227143 | File size: 925
+ - САМЫЙ - Count: 1, TF: 0,00108108, IDF: 0,259637 | Entry
+ - ЯП - Count: 0, TF: 0, IDF: 0,275724 | Entry
+    - C++ - Count: 12, TF: 0,012973, IDF: 1,1549 | Up/Down
+    - HTML - Count: 1, TF: 0,00108108, IDF: 0,638272 | Up/Down
+    - JAVASCRIPT - Count: 10, TF: 0,0108108, IDF: 0,585027 | Up/Down
+Result 7 | python-development-on-android.txt | Score: 0.0199985 | File size: 959
+ - САМЫЙ - Count: 3, TF: 0,00312826, IDF: 0,259637 | Entry
+ - ЛУЧШИЙ - Count: 1, TF: 0,00104275, IDF: 0,721246 | Entry
+ - ЯП - Count: 0, TF: 0, IDF: 0,275724 | Entry
+    - PYTHON - Count: 9, TF: 0,00938478, IDF: 0,853872 | Up/Down
+    - JAVA - Count: 8, TF: 0,00834202, IDF: 1,1549 | Up/Down
+Result 8 | perehod-s-java-na-kotlin-pri-sozdanii-mobilnogo-prilozhenija.txt | Score: 0.0154296 | File size: 1161
+ - КАКОЙ - Count: 1, TF: 0,000861326, IDF: 0,275724 | Entry
+ - САМЫЙ - Count: 2, TF: 0,00172265, IDF: 0,259637 | Entry
+ - ЯП - Count: 0, TF: 0, IDF: 0,275724 | Entry
+    - JAVA - Count: 17, TF: 0,0146425, IDF: 1,1549 | Up/Down
+Result 9 | python-vs-r-for-data-science.txt | Score: 0.0152003 | File size: 1250
+ - САМЫЙ - Count: 1, TF: 0,0008, IDF: 0,259637 | Entry
+ - ЯП - Count: 0, TF: 0, IDF: 0,275724 | Entry
+    - PYTHON - Count: 23, TF: 0,0184, IDF: 0,853872 | Up/Down
+    - JAVA - Count: 2, TF: 0,0016, IDF: 1,1549 | Up/Down
+    - C++ - Count: 1, TF: 0,0008, IDF: 1,1549 | Up/Down
+Result 10 | how-to-do-bad-css.txt | Score: 0.0124235 | File size: 814
+ - САМЫЙ - Count: 2, TF: 0,002457, IDF: 0,259637 | Entry
+ - ЯП - Count: 0, TF: 0, IDF: 0,275724 | Entry
+    - CSS - Count: 13, TF: 0,0159705, IDF: 0,638272 | Up/Down
+
+Request 4: Как выучить css
+Result 1 | from-programmer-to-manager.txt | Score: 0.159284 | File size: 54
+ - ВЫУЧИТЬ - Count: 1, TF: 0,0185185, IDF: 1,69897 | Entry
+Result 2 | kak-sdelat-tekst-gradientom-prostoj-css-trjuk.txt | Score: 0.0410198 | File size: 228
+ - КАК - Count: 4, TF: 0,0175439, IDF: 0,00877392 | Entry
+ - CSS - Count: 4, TF: 0,0175439, IDF: 0,638272 | Entry
+Result 3 | how-to-do-bad-css.txt | Score: 0.0188944 | File size: 814
+ - КАК - Count: 8, TF: 0,00982801, IDF: 0,00877392 | Entry
+ - CSS - Count: 13, TF: 0,0159705, IDF: 0,638272 | Entry
+Result 4 | frontend-roadmap-2021.txt | Score: 0.0165103 | File size: 844
+ - КАК - Count: 12, TF: 0,014218, IDF: 0,00877392 | Entry
+ - CSS - Count: 12, TF: 0,014218, IDF: 0,638272 | Entry
+Result 5 | fun-ui-ux.txt | Score: 0.0104678 | File size: 225
+ - CSS - Count: 1, TF: 0,00444444, IDF: 0,638272 | Entry
+Result 6 | javascript-based-animation-part-1.txt | Score: 0.00545338 | File size: 1279
+ - КАК - Count: 17, TF: 0,0132916, IDF: 0,00877392 | Entry
+ - CSS - Count: 8, TF: 0,00625489, IDF: 0,638272 | Entry
+Result 7 | layouts-of-tomorrow.txt | Score: 0.00500979 | File size: 1025
+ - КАК - Count: 9, TF: 0,00878049, IDF: 0,00877392 | Entry
+ - CSS - Count: 5, TF: 0,00487805, IDF: 0,638272 | Entry
+Result 8 | css3-animation-step-by-step.txt | Score: 0.00465913 | File size: 799
+ - КАК - Count: 8, TF: 0,0100125, IDF: 0,00877392 | Entry
+ - CSS - Count: 3, TF: 0,00375469, IDF: 0,638272 | Entry
+Result 9 | things-to-know-when-making-a-web-application-in-2015.txt | Score: 0.00432721 | File size: 1268
+ - КАК - Count: 10, TF: 0,00788644, IDF: 0,00877392 | Entry
+ - CSS - Count: 6, TF: 0,00473186, IDF: 0,638272 | Entry
+    - WEB - Count: 1, TF: 0,000788644, IDF: 0,309804 | Up/Down
+Result 10 | flex-properties-on-css.txt | Score: 0.00393512 | File size: 690
+ - КАК - Count: 4, TF: 0,0057971, IDF: 0,00877392 | Entry
+ - CSS - Count: 2, TF: 0,00289855, IDF: 0,638272 | Entry
+
+Request 5: Работа в ML
+Result 1 | it-market-and-quarantine-measures.txt | Score: 0.00394903 | File size: 649
+ - РАБОТА - Count: 10, TF: 0,0154083, IDF: 0,107905 | Entry
+ - В - Count: 20, TF: 0,0308166, IDF: 0 | Entry
+ - ML - Count: 0, TF: 0, IDF: 0,721246 | Entry
+    - СФЕРА - Count: 1, TF: 0,00154083, IDF: 0,200659 | Up/Down
+Result 2 | kak-nastroit-rabotu-komandy-v-rezhime-avrala.txt | Score: 0.00327528 | File size: 398
+ - РАБОТА - Count: 2, TF: 0,00502513, IDF: 0,107905 | Entry
+ - В - Count: 12, TF: 0,0301508, IDF: 0 | Entry
+ - ML - Count: 0, TF: 0, IDF: 0,721246 | Entry
+    - СФЕРА - Count: 2, TF: 0,00502513, IDF: 0,200659 | Up/Down
+Result 3 | osnovnye-instrumenty-data-sajentista.txt | Score: 0.00292344 | File size: 1340
+ - РАБОТА - Count: 15, TF: 0,011194, IDF: 0,107905 | Entry
+ - В - Count: 41, TF: 0,030597, IDF: 0 | Entry
+ - ML - Count: 2, TF: 0,00149254, IDF: 0,721246 | Entry
+Result 4 | how-digital-agency-can-boost-development.txt | Score: 0.00290929 | File size: 1001
+ - РАБОТА - Count: 17, TF: 0,016983, IDF: 0,107905 | Entry
+ - В - Count: 20, TF: 0,01998, IDF: 0 | Entry
+Result 5 | frontend-roadmap-2021.txt | Score: 0.00232744 | File size: 844
+ - РАБОТА - Count: 9, TF: 0,0106635, IDF: 0,107905 | Entry
+ - В - Count: 19, TF: 0,0225118, IDF: 0 | Entry
+ - ML - Count: 0, TF: 0, IDF: 0,721246 | Entry
+    - СФЕРА - Count: 1, TF: 0,00118483, IDF: 0,200659 | Up/Down
+Result 6 | typical-day-of-a-software-development-chief.txt | Score: 0.0022549 | File size: 802
+ - РАБОТА - Count: 9, TF: 0,0112219, IDF: 0,107905 | Entry
+ - В - Count: 32, TF: 0,0399002, IDF: 0 | Entry
+Result 7 | how-to-become-tester.txt | Score: 0.00207796 | File size: 849
+ - РАБОТА - Count: 8, TF: 0,00942285, IDF: 0,107905 | Entry
+ - В - Count: 25, TF: 0,0294464, IDF: 0 | Entry
+ - ML - Count: 0, TF: 0, IDF: 0,721246 | Entry
+    - СФЕРА - Count: 1, TF: 0,00117786, IDF: 0,200659 | Up/Down
+Result 8 | bionic-hands-what-is-it-and-where-it-is-used.txt | Score: 0.00192716 | File size: 539
+ - РАБОТА - Count: 4, TF: 0,00742115, IDF: 0,107905 | Entry
+ - В - Count: 15, TF: 0,0278293, IDF: 0 | Entry
+Result 9 | speech-recoginition-in-the-browser.txt | Score: 0.00189527 | File size: 214
+ - РАБОТА - Count: 1, TF: 0,0046729, IDF: 0,107905 | Entry
+ - В - Count: 9, TF: 0,0420561, IDF: 0 | Entry
+Result 10 | data-scientists-spend-most-of-their-time-not-on-products.txt | Score: 0.0018522 | File size: 777
+ - РАБОТА - Count: 7, TF: 0,00900901, IDF: 0,107905 | Entry
+ - В - Count: 19, TF: 0,024453, IDF: 0 | Entry
+
+Request 6: Книги по программированию
+Result 1 | scrum-advices.txt | Score: 0.0072178 | File size: 730
+ - КНИГА - Count: 3, TF: 0,00410959, IDF: 0,853872 | Entry
+ - ПО - Count: 2, TF: 0,00273973, IDF: 0,0409586 | Entry
+Result 2 | developing-app-with-flask-and-vue-js.txt | Score: 0.006592 | File size: 1859
+ - КНИГА - Count: 14, TF: 0,00753093, IDF: 0,853872 | Entry
+ - ПО - Count: 13, TF: 0,00699301, IDF: 0,0409586 | Entry
+Result 3 | how-to-become-tester.txt | Score: 0.00570772 | File size: 849
+ - КНИГА - Count: 2, TF: 0,00235571, IDF: 0,853872 | Entry
+ - ПО - Count: 8, TF: 0,00942285, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,00117786, IDF: 0,657577 | Entry
+Result 4 | frontend-roadmap-2021.txt | Score: 0.00452938 | File size: 844
+ - КНИГА - Count: 2, TF: 0,00236967, IDF: 0,853872 | Entry
+ - ПО - Count: 10, TF: 0,0118483, IDF: 0,0409586 | Entry
+Result 5 | sozdajom-igru-na-android-s-pomoshhju-mit-app-inventor.txt | Score: 0.00412624 | File size: 517
+ - ПО - Count: 5, TF: 0,00967118, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,00193424, IDF: 0,657577 | Entry
+Result 6 | virtual-reality-devices.txt | Score: 0.00349989 | File size: 587
+ - КНИГА - Count: 1, TF: 0,00170358, IDF: 0,853872 | Entry
+ - ПО - Count: 1, TF: 0,00170358, IDF: 0,0409586 | Entry
+Result 7 | gde-tusit-ajtishniku-v-moskve.txt | Score: 0.00336743 | File size: 584
+ - КНИГА - Count: 1, TF: 0,00171233, IDF: 0,853872 | Entry
+Result 8 | programmers-lifehacks.txt | Score: 0.00329128 | File size: 890
+ - ПО - Count: 9, TF: 0,0101124, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 2, TF: 0,00224719, IDF: 0,657577 | Entry
+Result 9 | perehod-s-java-na-kotlin-pri-sozdanii-mobilnogo-prilozhenija.txt | Score: 0.00273629 | File size: 1161
+ - ПО - Count: 6, TF: 0,00516796, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 3, TF: 0,00258398, IDF: 0,657577 | Entry
+Result 10 | kniga-bajesovskaya-statistika-star-wars-lego-rezinovye-utochki-i-mnogoe-drugoe.txt | Score: 0.0024675 | File size: 1888
+ - КНИГА - Count: 5, TF: 0,00264831, IDF: 0,853872 | Entry
+ - ПО - Count: 13, TF: 0,00688559, IDF: 0,0409586 | Entry
+
+Request 7: Как стать разработчиком
+Result 1 | from-programmer-to-manager.txt | Score: 0.0645346 | File size: 54
+ - СТАТЬ - Count: 1, TF: 0,0185185, IDF: 0,537602 | Entry
+ - РАЗРАБОТЧИК - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - ПРОГРАММИСТ - Count: 1, TF: 0,0185185, IDF: 0,167491 | Synonim
+Result 2 | kak-sdelat-tekst-gradientom-prostoj-css-trjuk.txt | Score: 0.00921383 | File size: 228
+ - КАК - Count: 4, TF: 0,0175439, IDF: 0,00877392 | Entry
+ - СТАТЬ - Count: 1, TF: 0,00438596, IDF: 0,537602 | Entry
+Result 3 | fun-ui-ux.txt | Score: 0.0088168 | File size: 225
+ - СТАТЬ - Count: 1, TF: 0,00444444, IDF: 0,537602 | Entry
+Result 4 | how-to-become-tester.txt | Score: 0.00714863 | File size: 849
+ - КАК - Count: 10, TF: 0,0117786, IDF: 0,00877392 | Entry
+ - СТАТЬ - Count: 5, TF: 0,00588928, IDF: 0,537602 | Entry
+ - РАЗРАБОТЧИК - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - СПЕЦИАЛИСТ - Count: 4, TF: 0,00471143, IDF: 0,167491 | Synonim
+Result 5 | frontend-roadmap-2021.txt | Score: 0.00665008 | File size: 844
+ - КАК - Count: 12, TF: 0,014218, IDF: 0,00877392 | Entry
+ - СТАТЬ - Count: 5, TF: 0,00592417, IDF: 0,537602 | Entry
+ - РАЗРАБОТЧИК - Count: 1, TF: 0,00118483, IDF: 0,167491 | Entry
+    - СПЕЦИАЛИСТ - Count: 1, TF: 0,00118483, IDF: 0,167491 | Synonim
+Result 6 | kak-perenesti-igru-na-html5-podvodnye-kamni-oshibki-njuansy.txt | Score: 0.00580327 | File size: 734
+ - КАК - Count: 8, TF: 0,0108992, IDF: 0,00877392 | Entry
+ - РАЗРАБОТЧИК - Count: 7, TF: 0,00953678, IDF: 0,167491 | Entry
+    - РАБОТНИК - Count: 1, TF: 0,0013624, IDF: 0,236572 | Synonim
+    - СПЕЦИАЛИСТ - Count: 4, TF: 0,00544959, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 3, TF: 0,00408719, IDF: 0,05061 | Up/Down
+Result 7 | highload-2018-live.txt | Score: 0.00561391 | File size: 390
+ - КАК - Count: 6, TF: 0,0153846, IDF: 0,00877392 | Entry
+ - СТАТЬ - Count: 1, TF: 0,0025641, IDF: 0,537602 | Entry
+ - РАЗРАБОТЧИК - Count: 1, TF: 0,0025641, IDF: 0,167491 | Entry
+Result 8 | mistakes-junior-react-developers-make.txt | Score: 0.00442086 | File size: 643
+ - КАК - Count: 14, TF: 0,0217729, IDF: 0,00877392 | Entry
+ - СТАТЬ - Count: 1, TF: 0,00155521, IDF: 0,537602 | Entry
+ - РАЗРАБОТЧИК - Count: 3, TF: 0,00466563, IDF: 0,167491 | Entry
+    - ПРОГРАММИСТ - Count: 1, TF: 0,00155521, IDF: 0,167491 | Synonim
+Result 9 | kak-kubernetes-povyshaet-cennost-it-navykov.txt | Score: 0.00386293 | File size: 792
+ - КАК - Count: 4, TF: 0,00505051, IDF: 0,00877392 | Entry
+ - СТАТЬ - Count: 1, TF: 0,00126263, IDF: 0,537602 | Entry
+ - РАЗРАБОТЧИК - Count: 3, TF: 0,00378788, IDF: 0,167491 | Entry
+    - РАБОТНИК - Count: 1, TF: 0,00126263, IDF: 0,236572 | Synonim
+    - СПЕЦИАЛИСТ - Count: 2, TF: 0,00252525, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 1, TF: 0,00126263, IDF: 0,05061 | Up/Down
+Result 10 | business-science-vs-data-science-chem-otlichajutsja-dva-napravlenija-nauki-o-dannyh.txt | Score: 0.00365301 | File size: 835
+ - КАК - Count: 10, TF: 0,011976, IDF: 0,00877392 | Entry
+ - СТАТЬ - Count: 2, TF: 0,00239521, IDF: 0,537602 | Entry
+ - РАЗРАБОТЧИК - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - СПЕЦИАЛИСТ - Count: 3, TF: 0,00359281, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 2, TF: 0,00239521, IDF: 0,05061 | Up/Down
+
+Request 8: Программирование на python
+Result 1 | python-vs-r-for-data-science.txt | Score: 0.0218855 | File size: 1250
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,0008, IDF: 0,657577 | Entry
+ - НА - Count: 13, TF: 0,0104, IDF: 0,00436481 | Entry
+ - PYTHON - Count: 23, TF: 0,0184, IDF: 0,853872 | Entry
+Result 2 | python-development-on-android.txt | Score: 0.0133544 | File size: 959
+ - НА - Count: 24, TF: 0,0250261, IDF: 0,00436481 | Entry
+ - PYTHON - Count: 9, TF: 0,00938478, IDF: 0,853872 | Entry
+Result 3 | create-your-first-django-app.txt | Score: 0.0121477 | File size: 1133
+ - НА - Count: 17, TF: 0,0150044, IDF: 0,00436481 | Entry
+ - PYTHON - Count: 11, TF: 0,00970874, IDF: 0,853872 | Entry
+Result 4 | cryptography-encryption.txt | Score: 0.00747478 | File size: 552
+ - НА - Count: 6, TF: 0,0108696, IDF: 0,00436481 | Entry
+ - PYTHON - Count: 2, TF: 0,00362319, IDF: 0,853872 | Entry
+Result 5 | django-react-webapp.txt | Score: 0.00591858 | File size: 1698
+ - НА - Count: 24, TF: 0,0141343, IDF: 0,00436481 | Entry
+ - PYTHON - Count: 11, TF: 0,00647821, IDF: 0,853872 | Entry
+Result 6 | nabor-instrumentov-chtoby-sdelat-analitiku-na-r-maksimalno-komfortnoj.txt | Score: 0.00420625 | File size: 994
+ - НА - Count: 9, TF: 0,00905433, IDF: 0,00436481 | Entry
+ - PYTHON - Count: 3, TF: 0,00301811, IDF: 0,853872 | Entry
+Result 7 | osnovnye-instrumenty-data-sajentista.txt | Score: 0.00394238 | File size: 1340
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,000746269, IDF: 0,657577 | Entry
+ - НА - Count: 11, TF: 0,00820896, IDF: 0,00436481 | Entry
+ - PYTHON - Count: 4, TF: 0,00298507, IDF: 0,853872 | Entry
+Result 8 | sozdajom-igru-na-android-s-pomoshhju-mit-app-inventor.txt | Score: 0.00351764 | File size: 517
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,00193424, IDF: 0,657577 | Entry
+ - НА - Count: 18, TF: 0,0348162, IDF: 0,00436481 | Entry
+Result 9 | image-classifier-tensorflow.txt | Score: 0.00325242 | File size: 928
+ - НА - Count: 18, TF: 0,0193966, IDF: 0,00436481 | Entry
+ - PYTHON - Count: 2, TF: 0,00215517, IDF: 0,853872 | Entry
+Result 10 | snake-android-python-kivy.txt | Score: 0.0028411 | File size: 1423
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,000702741, IDF: 0,657577 | Entry
+ - НА - Count: 20, TF: 0,0140548, IDF: 0,00436481 | Entry
+ - PYTHON - Count: 3, TF: 0,00210822, IDF: 0,853872 | Entry
+
+Request 9: Как пользоваться Github
+Result 1 | speech-recoginition-in-the-browser.txt | Score: 0.0169913 | File size: 214
+ - КАК - Count: 1, TF: 0,0046729, IDF: 0,00877392 | Entry
+ - ПОЛЬЗОВАТЬСЯ - Count: 1, TF: 0,0046729, IDF: 0,958607 | Entry
+Result 2 | kak-sdelat-tekst-gradientom-prostoj-css-trjuk.txt | Score: 0.0159938 | File size: 228
+ - КАК - Count: 4, TF: 0,0175439, IDF: 0,00877392 | Entry
+ - ПОЛЬЗОВАТЬСЯ - Count: 1, TF: 0,00438596, IDF: 0,958607 | Entry
+Result 3 | programmers-lifehacks.txt | Score: 0.00486711 | File size: 890
+ - КАК - Count: 5, TF: 0,00561798, IDF: 0,00877392 | Entry
+ - GITHUB - Count: 2, TF: 0,00224719, IDF: 1,22185 | Entry
+Result 4 | didzhital-detoks-ili-kak-spravitsja-s-ustalostju-ot-tehnologij-i-izbezhat-vygoranija.txt | Score: 0.00462994 | File size: 805
+ - КАК - Count: 9, TF: 0,0111801, IDF: 0,00877392 | Entry
+ - ПОЛЬЗОВАТЬСЯ - Count: 2, TF: 0,00248447, IDF: 0,958607 | Entry
+Result 5 | gpu-nvidia-gtc-2019.txt | Score: 0.00342041 | File size: 635
+ - КАК - Count: 4, TF: 0,00629921, IDF: 0,00877392 | Entry
+ - ПОЛЬЗОВАТЬСЯ - Count: 1, TF: 0,0015748, IDF: 0,958607 | Entry
+Result 6 | headless-cms-prostoe-i-bystroe-reshenie-kogda-ne-hochetsja-silno-lezt-v-kod.txt | Score: 0.00269892 | File size: 1266
+ - КАК - Count: 12, TF: 0,00947867, IDF: 0,00877392 | Entry
+ - GITHUB - Count: 2, TF: 0,00157978, IDF: 1,22185 | Entry
+Result 7 | nabor-instrumentov-chtoby-sdelat-analitiku-na-r-maksimalno-komfortnoj.txt | Score: 0.00160877 | File size: 994
+ - КАК - Count: 4, TF: 0,00402414, IDF: 0,00877392 | Entry
+ - ПОЛЬЗОВАТЬСЯ - Count: 1, TF: 0,00100604, IDF: 0,958607 | Entry
+Result 8 | perehod-s-java-na-kotlin-pri-sozdanii-mobilnogo-prilozhenija.txt | Score: 0.00160565 | File size: 1161
+ - КАК - Count: 9, TF: 0,00775194, IDF: 0,00877392 | Entry
+ - GITHUB - Count: 1, TF: 0,000861326, IDF: 1,22185 | Entry
+Result 9 | kak-i-zachem-ja-sozdal-svoj-poiskovik-pick-istorija-sozdanija-i-primery-koda.txt | Score: 0.00157847 | File size: 1712
+ - КАК - Count: 14, TF: 0,00817757, IDF: 0,00877392 | Entry
+ - GITHUB - Count: 2, TF: 0,00116822, IDF: 1,22185 | Entry
+Result 10 | create-your-first-django-app.txt | Score: 0.0013368 | File size: 1133
+ - КАК - Count: 9, TF: 0,00794351, IDF: 0,00877392 | Entry
+ - ПОЛЬЗОВАТЬСЯ - Count: 1, TF: 0,000882613, IDF: 0,958607 | Entry
+
+Request 10: Html или css
+Result 1 | kak-sdelat-tekst-gradientom-prostoj-css-trjuk.txt | Score: 0.0404636 | File size: 228
+ - CSS - Count: 4, TF: 0,0175439, IDF: 0,638272 | Entry
+Result 2 | frontend-roadmap-2021.txt | Score: 0.0271749 | File size: 844
+ - HTML - Count: 8, TF: 0,00947867, IDF: 0,638272 | Entry
+ - CSS - Count: 12, TF: 0,014218, IDF: 0,638272 | Entry
+Result 3 | how-to-do-bad-css.txt | Score: 0.0191038 | File size: 814
+ - ИЛИ - Count: 2, TF: 0,002457, IDF: 0,0809219 | Entry
+ - CSS - Count: 13, TF: 0,0159705, IDF: 0,638272 | Entry
+Result 4 | fun-ui-ux.txt | Score: 0.011795 | File size: 225
+ - ИЛИ - Count: 1, TF: 0,00444444, IDF: 0,0809219 | Entry
+ - CSS - Count: 1, TF: 0,00444444, IDF: 0,638272 | Entry
+Result 5 | introduction-to-svelte-3.txt | Score: 0.0097255 | File size: 724
+ - HTML - Count: 4, TF: 0,00552486, IDF: 0,638272 | Entry
+ - ИЛИ - Count: 4, TF: 0,00552486, IDF: 0,0809219 | Entry
+ - CSS - Count: 1, TF: 0,00138122, IDF: 0,638272 | Entry
+Result 6 | javascript-based-animation-part-1.txt | Score: 0.00680548 | File size: 1279
+ - ИЛИ - Count: 18, TF: 0,0140735, IDF: 0,0809219 | Entry
+ - CSS - Count: 8, TF: 0,00625489, IDF: 0,638272 | Entry
+Result 7 | create-your-first-django-app.txt | Score: 0.00656919 | File size: 1133
+ - HTML - Count: 6, TF: 0,00529568, IDF: 0,638272 | Entry
+ - CSS - Count: 2, TF: 0,00176523, IDF: 0,638272 | Entry
+Result 8 | css3-animation-step-by-step.txt | Score: 0.00582059 | File size: 799
+ - ИЛИ - Count: 7, TF: 0,00876095, IDF: 0,0809219 | Entry
+ - CSS - Count: 3, TF: 0,00375469, IDF: 0,638272 | Entry
+Result 9 | layouts-of-tomorrow.txt | Score: 0.00526135 | File size: 1025
+ - ИЛИ - Count: 3, TF: 0,00292683, IDF: 0,0809219 | Entry
+ - CSS - Count: 5, TF: 0,00487805, IDF: 0,638272 | Entry
+Result 10 | things-to-know-when-making-a-web-application-in-2015.txt | Score: 0.00502831 | File size: 1268
+ - HTML - Count: 0, TF: 0, IDF: 0,638272 | Entry
+    - WEB - Count: 1, TF: 0,000788644, IDF: 0,309804 | Up/Down
+ - ИЛИ - Count: 7, TF: 0,0055205, IDF: 0,0809219 | Entry
+ - CSS - Count: 6, TF: 0,00473186, IDF: 0,638272 | Entry
+    - WEB - Count: 1, TF: 0,000788644, IDF: 0,309804 | Up/Down
+
+Request 11: Сколько зарабатывает программист
+Result 1 | from-programmer-to-manager.txt | Score: 0.0157029 | File size: 54
+ - ПРОГРАММИСТ - Count: 1, TF: 0,0185185, IDF: 0,167491 | Entry
+Result 2 | kak-stat-testirovshhikom-s-nulja.txt | Score: 0.00569353 | File size: 1438
+ - СКОЛЬКО - Count: 2, TF: 0,00139082, IDF: 0,853872 | Entry
+ - ЗАРАБАТЫВАЮ - Count: 2, TF: 0,00139082, IDF: 2 | Entry
+ - ПРОГРАММИСТ - Count: 1, TF: 0,00069541, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 4, TF: 0,00278164, IDF: 0,167491 | Synonim
+    - СПЕЦИАЛИСТ - Count: 1, TF: 0,00069541, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 4, TF: 0,00278164, IDF: 0,05061 | Up/Down
+Result 3 | kak-perenesti-igru-na-html5-podvodnye-kamni-oshibki-njuansy.txt | Score: 0.00529814 | File size: 734
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 7, TF: 0,00953678, IDF: 0,167491 | Synonim
+    - РАБОТНИК - Count: 1, TF: 0,0013624, IDF: 0,236572 | Synonim
+    - СПЕЦИАЛИСТ - Count: 4, TF: 0,00544959, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 3, TF: 0,00408719, IDF: 0,05061 | Up/Down
+Result 4 | how-to-start-android.txt | Score: 0.00429769 | File size: 1132
+ - СКОЛЬКО - Count: 1, TF: 0,000883392, IDF: 0,853872 | Entry
+ - ПРОГРАММИСТ - Count: 1, TF: 0,000883392, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 15, TF: 0,0132509, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 2, TF: 0,00176678, IDF: 0,05061 | Up/Down
+Result 5 | data-scientists-spend-most-of-their-time-not-on-products.txt | Score: 0.00395537 | File size: 777
+ - СКОЛЬКО - Count: 1, TF: 0,001287, IDF: 0,853872 | Entry
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - СПЕЦИАЛИСТ - Count: 5, TF: 0,00643501, IDF: 0,167491 | Synonim
+Result 6 | scrum-advices.txt | Score: 0.00295966 | File size: 730
+ - СКОЛЬКО - Count: 1, TF: 0,00136986, IDF: 0,853872 | Entry
+ - ПРОГРАММИСТ - Count: 1, TF: 0,00136986, IDF: 0,167491 | Entry
+    - ЧЕЛОВЕК - Count: 2, TF: 0,00273973, IDF: 0,05061 | Up/Down
+Result 7 | gpu-nvidia-gtc-2019.txt | Score: 0.00258753 | File size: 635
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 4, TF: 0,00629921, IDF: 0,167491 | Synonim
+    - СПЕЦИАЛИСТ - Count: 1, TF: 0,0015748, IDF: 0,167491 | Synonim
+Result 8 | es5-es6-or-typescript.txt | Score: 0.00254958 | File size: 220
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 1, TF: 0,00454545, IDF: 0,167491 | Synonim
+Result 9 | top-10-report-from-heisenbug-2019-moscow.txt | Score: 0.00246974 | File size: 792
+ - СКОЛЬКО - Count: 1, TF: 0,00126263, IDF: 0,853872 | Entry
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 1, TF: 0,00126263, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 1, TF: 0,00126263, IDF: 0,05061 | Up/Down
+Result 10 | kak-kubernetes-povyshaet-cennost-it-navykov.txt | Score: 0.0023768 | File size: 792
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 3, TF: 0,00378788, IDF: 0,167491 | Synonim
+    - РАБОТНИК - Count: 1, TF: 0,00126263, IDF: 0,236572 | Synonim
+    - СПЕЦИАЛИСТ - Count: 2, TF: 0,00252525, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 1, TF: 0,00126263, IDF: 0,05061 | Up/Down
+
+Request 12: Зарплата разработчика
+Result 1 | it-market-and-quarantine-measures.txt | Score: 0.0182934 | File size: 649
+ - ЗАРПЛАТА - Count: 4, TF: 0,00616333, IDF: 1,22185 | Entry
+ - РАЗРАБОТЧИК - Count: 2, TF: 0,00308166, IDF: 0,167491 | Entry
+    - СПЕЦИАЛИСТ - Count: 2, TF: 0,00308166, IDF: 0,167491 | Synonim
+Result 2 | from-programmer-to-manager.txt | Score: 0.0141326 | File size: 54
+ - РАЗРАБОТЧИК - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - ПРОГРАММИСТ - Count: 1, TF: 0,0185185, IDF: 0,167491 | Synonim
+Result 3 | kak-perenesti-igru-na-html5-podvodnye-kamni-oshibki-njuansy.txt | Score: 0.00561421 | File size: 734
+ - РАЗРАБОТЧИК - Count: 7, TF: 0,00953678, IDF: 0,167491 | Entry
+    - РАБОТНИК - Count: 1, TF: 0,0013624, IDF: 0,236572 | Synonim
+    - СПЕЦИАЛИСТ - Count: 4, TF: 0,00544959, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 3, TF: 0,00408719, IDF: 0,05061 | Up/Down
+Result 4 | kak-stat-testirovshhikom-s-nulja.txt | Score: 0.00401246 | File size: 1438
+ - ЗАРПЛАТА - Count: 3, TF: 0,00208623, IDF: 1,22185 | Entry
+ - РАЗРАБОТЧИК - Count: 4, TF: 0,00278164, IDF: 0,167491 | Entry
+    - ПРОГРАММИСТ - Count: 1, TF: 0,00069541, IDF: 0,167491 | Synonim
+    - СПЕЦИАЛИСТ - Count: 1, TF: 0,00069541, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 4, TF: 0,00278164, IDF: 0,05061 | Up/Down
+Result 5 | how-to-start-android.txt | Score: 0.00349629 | File size: 1132
+ - РАЗРАБОТЧИК - Count: 15, TF: 0,0132509, IDF: 0,167491 | Entry
+    - ПРОГРАММИСТ - Count: 1, TF: 0,000883392, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 2, TF: 0,00176678, IDF: 0,05061 | Up/Down
+Result 6 | pochemu-vam-stoit-vybrat-node-js-dlja-razrabotki-servernyh-prilozhenij.txt | Score: 0.00325646 | File size: 1109
+ - ЗАРПЛАТА - Count: 1, TF: 0,000901713, IDF: 1,22185 | Entry
+ - РАЗРАБОТЧИК - Count: 4, TF: 0,00360685, IDF: 0,167491 | Entry
+    - СПЕЦИАЛИСТ - Count: 3, TF: 0,00270514, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 3, TF: 0,00270514, IDF: 0,05061 | Up/Down
+Result 7 | chto-nuzhno-znat-chtoby-postroit-kareru-v-big-data-objasnjaet-jekspert.txt | Score: 0.00295504 | File size: 1728
+ - ЗАРПЛАТА - Count: 3, TF: 0,00173611, IDF: 1,22185 | Entry
+ - РАЗРАБОТЧИК - Count: 1, TF: 0,000578704, IDF: 0,167491 | Entry
+    - СПЕЦИАЛИСТ - Count: 7, TF: 0,00405093, IDF: 0,167491 | Synonim
+Result 8 | es5-es6-or-typescript.txt | Score: 0.00283286 | File size: 220
+ - РАЗРАБОТЧИК - Count: 1, TF: 0,00454545, IDF: 0,167491 | Entry
+Result 9 | gpu-nvidia-gtc-2019.txt | Score: 0.00281737 | File size: 635
+ - РАЗРАБОТЧИК - Count: 4, TF: 0,00629921, IDF: 0,167491 | Entry
+    - СПЕЦИАЛИСТ - Count: 1, TF: 0,0015748, IDF: 0,167491 | Synonim
+Result 10 | kak-kubernetes-povyshaet-cennost-it-navykov.txt | Score: 0.00249652 | File size: 792
+ - РАЗРАБОТЧИК - Count: 3, TF: 0,00378788, IDF: 0,167491 | Entry
+    - РАБОТНИК - Count: 1, TF: 0,00126263, IDF: 0,236572 | Synonim
+    - СПЕЦИАЛИСТ - Count: 2, TF: 0,00252525, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 1, TF: 0,00126263, IDF: 0,05061 | Up/Down
+
+Request 13: Обучение html
+Result 1 | image-classifier-tensorflow.txt | Score: 0.01192 | File size: 928
+ - ОБУЧЕНИЕ - Count: 10, TF: 0,0107759, IDF: 0,657577 | Entry
+Result 2 | frontend-roadmap-2021.txt | Score: 0.0108885 | File size: 844
+ - HTML - Count: 8, TF: 0,00947867, IDF: 0,638272 | Entry
+Result 3 | introduction-to-svelte-3.txt | Score: 0.00706038 | File size: 724
+ - HTML - Count: 4, TF: 0,00552486, IDF: 0,638272 | Entry
+Result 4 | data-scientists-spend-most-of-their-time-not-on-products.txt | Score: 0.00646576 | File size: 777
+ - ОБУЧЕНИЕ - Count: 4, TF: 0,00514801, IDF: 0,657577 | Entry
+Result 5 | machine-learning-crisis.txt | Score: 0.00601784 | File size: 2166
+ - ОБУЧЕНИЕ - Count: 23, TF: 0,0106187, IDF: 0,657577 | Entry
+Result 6 | kakoe-napravlenie-big-data-vybrat-i-kakie-perspektivy-u-novichkov-objasnjaet-jekspert.txt | Score: 0.00574308 | File size: 1328
+ - ОБУЧЕНИЕ - Count: 9, TF: 0,00677711, IDF: 0,657577 | Entry
+Result 7 | python-vs-r-for-data-science.txt | Score: 0.00568568 | File size: 1250
+ - ОБУЧЕНИЕ - Count: 8, TF: 0,0064, IDF: 0,657577 | Entry
+Result 8 | create-your-first-django-app.txt | Score: 0.00492478 | File size: 1133
+ - HTML - Count: 6, TF: 0,00529568, IDF: 0,638272 | Entry
+Result 9 | highload-2018-live.txt | Score: 0.00487599 | File size: 390
+ - ОБУЧЕНИЕ - Count: 1, TF: 0,0025641, IDF: 0,657577 | Entry
+Result 10 | gpu-nvidia-gtc-2019.txt | Score: 0.00452223 | File size: 635
+ - ОБУЧЕНИЕ - Count: 2, TF: 0,00314961, IDF: 0,657577 | Entry
+
+Request 14: Курсы по программированию
+Result 1 | data-scientists-spend-most-of-their-time-not-on-products.txt | Score: 0.00562551 | File size: 777
+ - КУРС - Count: 3, TF: 0,003861, IDF: 0,721246 | Entry
+ - ПО - Count: 3, TF: 0,003861, IDF: 0,0409586 | Entry
+Result 2 | sozdajom-igru-na-android-s-pomoshhju-mit-app-inventor.txt | Score: 0.00412624 | File size: 517
+ - ПО - Count: 5, TF: 0,00967118, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,00193424, IDF: 0,657577 | Entry
+Result 3 | moja-istorija-v-it-medsestra-testirovshhica-v-jandekse-inzhener-po-razrabotke-v-sberbanke.txt | Score: 0.00341672 | File size: 1414
+ - КУРС - Count: 5, TF: 0,00353607, IDF: 0,721246 | Entry
+ - ПО - Count: 8, TF: 0,00565771, IDF: 0,0409586 | Entry
+Result 4 | programmers-lifehacks.txt | Score: 0.00329128 | File size: 890
+ - ПО - Count: 9, TF: 0,0101124, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 2, TF: 0,00224719, IDF: 0,657577 | Entry
+Result 5 | python-vs-r-for-data-science.txt | Score: 0.00318834 | File size: 1250
+ - КУРС - Count: 3, TF: 0,0024, IDF: 0,721246 | Entry
+ - ПО - Count: 3, TF: 0,0024, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,0008, IDF: 0,657577 | Entry
+Result 6 | how-to-start-android.txt | Score: 0.00302634 | File size: 1132
+ - КУРС - Count: 2, TF: 0,00176678, IDF: 0,721246 | Entry
+ - ПО - Count: 6, TF: 0,00530035, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,000883392, IDF: 0,657577 | Entry
+Result 7 | gpu-nvidia-gtc-2019.txt | Score: 0.00290492 | File size: 635
+ - КУРС - Count: 1, TF: 0,0015748, IDF: 0,721246 | Entry
+ - ПО - Count: 3, TF: 0,00472441, IDF: 0,0409586 | Entry
+Result 8 | perehod-s-java-na-kotlin-pri-sozdanii-mobilnogo-prilozhenija.txt | Score: 0.00273629 | File size: 1161
+ - ПО - Count: 6, TF: 0,00516796, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 3, TF: 0,00258398, IDF: 0,657577 | Entry
+Result 9 | test-driven-development-is-dumb.txt | Score: 0.00271163 | File size: 933
+ - КУРС - Count: 1, TF: 0,00107181, IDF: 0,721246 | Entry
+ - ПО - Count: 3, TF: 0,00321543, IDF: 0,0409586 | Entry
+ - ПРОГРАММИРОВАНИЕ - Count: 1, TF: 0,00107181, IDF: 0,657577 | Entry
+Result 10 | frontend-roadmap-2021.txt | Score: 0.00241786 | File size: 844
+ - КУРС - Count: 1, TF: 0,00118483, IDF: 0,721246 | Entry
+ - ПО - Count: 10, TF: 0,0118483, IDF: 0,0409586 | Entry
+
+Request 15: Как создать мобильное приложение
+Result 1 | html5-vs-native-apps.txt | Score: 0.0373737 | File size: 970
+ - КАК - Count: 14, TF: 0,014433, IDF: 0,00877392 | Entry
+ - МОБИЛЬНЫЙ - Count: 22, TF: 0,0226804, IDF: 0,69897 | Entry
+ - ПРИЛОЖЕНИЕ - Count: 21, TF: 0,0216495, IDF: 0,327902 | Entry
+Result 2 | sozdajom-igru-na-android-s-pomoshhju-mit-app-inventor.txt | Score: 0.0341869 | File size: 517
+ - КАК - Count: 2, TF: 0,00386847, IDF: 0,00877392 | Entry
+ - СОЗДАТЬ - Count: 2, TF: 0,00386847, IDF: 0,107905 | Entry
+ - МОБИЛЬНЫЙ - Count: 3, TF: 0,00580271, IDF: 0,69897 | Entry
+ - ПРИЛОЖЕНИЕ - Count: 15, TF: 0,0290135, IDF: 0,327902 | Entry
+Result 3 | reactjs-redux-webapp-10-minutes.txt | Score: 0.0137811 | File size: 403
+ - КАК - Count: 1, TF: 0,00248139, IDF: 0,00877392 | Entry
+ - ПРИЛОЖЕНИЕ - Count: 6, TF: 0,0148883, IDF: 0,327902 | Entry
+Result 4 | speech-recoginition-in-the-browser.txt | Score: 0.012431 | File size: 214
+ - КАК - Count: 1, TF: 0,0046729, IDF: 0,00877392 | Entry
+ - МОБИЛЬНЫЙ - Count: 1, TF: 0,0046729, IDF: 0,69897 | Entry
+Result 5 | manual-automation-testing.txt | Score: 0.0112076 | File size: 579
+ - КАК - Count: 6, TF: 0,0103627, IDF: 0,00877392 | Entry
+ - СОЗДАТЬ - Count: 0, TF: 0, IDF: 0,107905 | Entry
+    - ПОЛУЧИТЬ - Count: 1, TF: 0,00172712, IDF: 0,107905 | Synonim
+ - МОБИЛЬНЫЙ - Count: 1, TF: 0,00172712, IDF: 0,69897 | Entry
+ - ПРИЛОЖЕНИЕ - Count: 6, TF: 0,0103627, IDF: 0,327902 | Entry
+Result 6 | introduction-to-svelte-3.txt | Score: 0.0094412 | File size: 724
+ - КАК - Count: 10, TF: 0,0138122, IDF: 0,00877392 | Entry
+ - СОЗДАТЬ - Count: 0, TF: 0, IDF: 0,107905 | Entry
+    - СДЕЛАТЬ - Count: 2, TF: 0,00276243, IDF: 0,107905 | Synonim
+    - ПОЛУЧИТЬ - Count: 2, TF: 0,00276243, IDF: 0,107905 | Synonim
+ - ПРИЛОЖЕНИЕ - Count: 9, TF: 0,0124309, IDF: 0,327902 | Entry
+Result 7 | things-to-know-when-making-a-web-application-in-2015.txt | Score: 0.00817297 | File size: 1268
+ - КАК - Count: 10, TF: 0,00788644, IDF: 0,00877392 | Entry
+ - СОЗДАТЬ - Count: 0, TF: 0, IDF: 0,107905 | Entry
+    - СДЕЛАТЬ - Count: 2, TF: 0,00157729, IDF: 0,107905 | Synonim
+ - МОБИЛЬНЫЙ - Count: 6, TF: 0,00473186, IDF: 0,69897 | Entry
+ - ПРИЛОЖЕНИЕ - Count: 10, TF: 0,00788644, IDF: 0,327902 | Entry
+Result 8 | how-to-start-android.txt | Score: 0.00795154 | File size: 1132
+ - КАК - Count: 11, TF: 0,00971731, IDF: 0,00877392 | Entry
+ - СОЗДАТЬ - Count: 1, TF: 0,000883392, IDF: 0,107905 | Entry
+    - ПОЛУЧИТЬ - Count: 1, TF: 0,000883392, IDF: 0,107905 | Synonim
+ - ПРИЛОЖЕНИЕ - Count: 18, TF: 0,0159011, IDF: 0,327902 | Entry
+Result 9 | tools-for-vue-js.txt | Score: 0.0071452 | File size: 732
+ - КАК - Count: 2, TF: 0,00273224, IDF: 0,00877392 | Entry
+ - ПРИЛОЖЕНИЕ - Count: 8, TF: 0,010929, IDF: 0,327902 | Entry
+Result 10 | virtual-reality-devices.txt | Score: 0.00708791 | File size: 587
+ - КАК - Count: 4, TF: 0,00681431, IDF: 0,00877392 | Entry
+ - СОЗДАТЬ - Count: 0, TF: 0, IDF: 0,107905 | Entry
+    - СДЕЛАТЬ - Count: 1, TF: 0,00170358, IDF: 0,107905 | Synonim
+ - МОБИЛЬНЫЙ - Count: 1, TF: 0,00170358, IDF: 0,69897 | Entry
+ - ПРИЛОЖЕНИЕ - Count: 3, TF: 0,00511073, IDF: 0,327902 | Entry
+
+Request 16: Советы начинающим программистам
+Result 1 | from-programmer-to-manager.txt | Score: 0.0157029 | File size: 54
+ - ПРОГРАММИСТ - Count: 1, TF: 0,0185185, IDF: 0,167491 | Entry
+Result 2 | gpu-nvidia-gtc-2019.txt | Score: 0.0128914 | File size: 635
+ - СОВЕТ - Count: 3, TF: 0,00472441, IDF: 1 | Entry
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 4, TF: 0,00629921, IDF: 0,167491 | Synonim
+    - СПЕЦИАЛИСТ - Count: 1, TF: 0,0015748, IDF: 0,167491 | Synonim
+Result 3 | kak-perenesti-igru-na-html5-podvodnye-kamni-oshibki-njuansy.txt | Score: 0.00842847 | File size: 734
+ - НАЧИНАЮЩИЙ - Count: 1, TF: 0,0013624, IDF: 1,1549 | Entry
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 7, TF: 0,00953678, IDF: 0,167491 | Synonim
+    - РАБОТНИК - Count: 1, TF: 0,0013624, IDF: 0,236572 | Synonim
+    - СПЕЦИАЛИСТ - Count: 4, TF: 0,00544959, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 3, TF: 0,00408719, IDF: 0,05061 | Up/Down
+Result 4 | frontend-roadmap-2021.txt | Score: 0.00773574 | File size: 844
+ - СОВЕТ - Count: 1, TF: 0,00118483, IDF: 1 | Entry
+ - НАЧИНАЮЩИЙ - Count: 2, TF: 0,00236967, IDF: 1,1549 | Entry
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 1, TF: 0,00118483, IDF: 0,167491 | Synonim
+    - СПЕЦИАЛИСТ - Count: 1, TF: 0,00118483, IDF: 0,167491 | Synonim
+Result 5 | sozdajom-igru-na-android-s-pomoshhju-mit-app-inventor.txt | Score: 0.0063369 | File size: 517
+ - НАЧИНАЮЩИЙ - Count: 1, TF: 0,00193424, IDF: 1,1549 | Entry
+ - ПРОГРАММИСТ - Count: 1, TF: 0,00193424, IDF: 0,167491 | Entry
+Result 6 | scrum-advices.txt | Score: 0.00608964 | File size: 730
+ - СОВЕТ - Count: 2, TF: 0,00273973, IDF: 1 | Entry
+ - ПРОГРАММИСТ - Count: 1, TF: 0,00136986, IDF: 0,167491 | Entry
+    - ЧЕЛОВЕК - Count: 2, TF: 0,00273973, IDF: 0,05061 | Up/Down
+Result 7 | kak-kubernetes-povyshaet-cennost-it-navykov.txt | Score: 0.00476307 | File size: 792
+ - СОВЕТ - Count: 1, TF: 0,00126263, IDF: 1 | Entry
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 3, TF: 0,00378788, IDF: 0,167491 | Synonim
+    - РАБОТНИК - Count: 1, TF: 0,00126263, IDF: 0,236572 | Synonim
+    - СПЕЦИАЛИСТ - Count: 2, TF: 0,00252525, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 1, TF: 0,00126263, IDF: 0,05061 | Up/Down
+Result 8 | data-scientists-spend-most-of-their-time-not-on-products.txt | Score: 0.00469718 | File size: 777
+ - НАЧИНАЮЩИЙ - Count: 1, TF: 0,001287, IDF: 1,1549 | Entry
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - СПЕЦИАЛИСТ - Count: 5, TF: 0,00643501, IDF: 0,167491 | Synonim
+Result 9 | how-to-start-android.txt | Score: 0.00319557 | File size: 1132
+ - ПРОГРАММИСТ - Count: 1, TF: 0,000883392, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 15, TF: 0,0132509, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 2, TF: 0,00176678, IDF: 0,05061 | Up/Down
+Result 10 | top-10-report-from-heisenbug-2019-moscow.txt | Score: 0.00281844 | File size: 792
+ - СОВЕТ - Count: 1, TF: 0,00126263, IDF: 1 | Entry
+ - ПРОГРАММИСТ - Count: 0, TF: 0, IDF: 0,167491 | Entry
+    - РАЗРАБОТЧИК - Count: 1, TF: 0,00126263, IDF: 0,167491 | Synonim
+    - ЧЕЛОВЕК - Count: 1, TF: 0,00126263, IDF: 0,05061 | Up/Down
+
+Request 17: Начало карьеры в it
+Result 1 | kak-nastroit-rabotu-komandy-v-rezhime-avrala.txt | Score: 0.0122499 | File size: 398
+ - В - Count: 12, TF: 0,0301508, IDF: 0 | Entry
+ - IT - Count: 2, TF: 0,00502513, IDF: 0,853872 | Entry
+Result 2 | it-market-and-quarantine-measures.txt | Score: 0.0114623 | File size: 649
+ - НАЧАЛО - Count: 1, TF: 0,00154083, IDF: 0,522879 | Entry
+ - КАРЬЕР - Count: 1, TF: 0,00154083, IDF: 1,22185 | Entry
+ - В - Count: 20, TF: 0,0308166, IDF: 0 | Entry
+ - IT - Count: 2, TF: 0,00308166, IDF: 0,853872 | Entry
+Result 3 | es5-es6-or-typescript.txt | Score: 0.00884372 | File size: 220
+ - НАЧАЛО - Count: 1, TF: 0,00454545, IDF: 0,522879 | Entry
+ - В - Count: 8, TF: 0,0363636, IDF: 0 | Entry
+Result 4 | how-to-become-tester.txt | Score: 0.00362075 | File size: 849
+ - В - Count: 25, TF: 0,0294464, IDF: 0 | Entry
+ - IT - Count: 2, TF: 0,00235571, IDF: 0,853872 | Entry
+Result 5 | moja-istorija-v-it-medsestra-testirovshhica-v-jandekse-inzhener-po-razrabotke-v-sberbanke.txt | Score: 0.00346676 | File size: 1414
+ - НАЧАЛО - Count: 6, TF: 0,00424328, IDF: 0,522879 | Entry
+ - В - Count: 41, TF: 0,0289958, IDF: 0 | Entry
+ - IT - Count: 1, TF: 0,000707214, IDF: 0,853872 | Entry
+Result 6 | kak-stat-testirovshhikom-s-nulja.txt | Score: 0.00319094 | File size: 1438
+ - КАРЬЕР - Count: 1, TF: 0,00069541, IDF: 1,22185 | Entry
+ - В - Count: 30, TF: 0,0208623, IDF: 0 | Entry
+ - IT - Count: 3, TF: 0,00208623, IDF: 0,853872 | Entry
+Result 7 | raspoznavanie-izobrazhenij-cherez-bota-v-telegram-proekt-na-go-s-ispolzovaniem-tensorflow.txt | Score: 0.00301686 | File size: 833
+ - НАЧАЛО - Count: 1, TF: 0,00120048, IDF: 0,522879 | Entry
+ - В - Count: 25, TF: 0,030012, IDF: 0 | Entry
+ - IT - Count: 1, TF: 0,00120048, IDF: 0,853872 | Entry
+Result 8 | test-driven-development-is-dumb.txt | Score: 0.00282937 | File size: 933
+ - НАЧАЛО - Count: 3, TF: 0,00321543, IDF: 0,522879 | Entry
+ - В - Count: 21, TF: 0,022508, IDF: 0 | Entry
+Result 9 | chto-nuzhno-znat-chtoby-postroit-kareru-v-big-data-objasnjaet-jekspert.txt | Score: 0.00274212 | File size: 1728
+ - НАЧАЛО - Count: 4, TF: 0,00231481, IDF: 0,522879 | Entry
+ - КАРЬЕР - Count: 2, TF: 0,00115741, IDF: 1,22185 | Entry
+ - В - Count: 37, TF: 0,021412, IDF: 0 | Entry
+Result 10 | sozdajom-igru-na-android-s-pomoshhju-mit-app-inventor.txt | Score: 0.00250563 | File size: 517
+ - НАЧАЛО - Count: 1, TF: 0,00193424, IDF: 0,522879 | Entry
+ - В - Count: 11, TF: 0,0212766, IDF: 0 | Entry
+
+Request 18: Продукты компании Microsoft
+Result 1 | virtual-reality-devices.txt | Score: 0.0211322 | File size: 587
+ - ПРОДУКТ - Count: 1, TF: 0,00170358, IDF: 0,443697 | Entry
+ - КОМПАНИЯ - Count: 7, TF: 0,011925, IDF: 0,267606 | Entry
+    - GOOGLE - Count: 5, TF: 0,00851789, IDF: 0,309804 | Up/Down
+    - SAMSUNG - Count: 4, TF: 0,00681431, IDF: 0,443697 | Up/Down
+ - MICROSOFT - Count: 0, TF: 0, IDF: 0,408935 | Entry
+    - КОМПАНИЯ - Count: 7, TF: 0,011925, IDF: 0,267606 | Up/Down
+Result 2 | it-market-and-quarantine-measures.txt | Score: 0.0196299 | File size: 649
+ - КОМПАНИЯ - Count: 14, TF: 0,0215716, IDF: 0,267606 | Entry
+ - MICROSOFT - Count: 0, TF: 0, IDF: 0,408935 | Entry
+    - КОМПАНИЯ - Count: 14, TF: 0,0215716, IDF: 0,267606 | Up/Down
+Result 3 | speech-recoginition-in-the-browser.txt | Score: 0.0179839 | File size: 214
+ - КОМПАНИЯ - Count: 0, TF: 0, IDF: 0,267606 | Entry
+    - GOOGLE - Count: 2, TF: 0,00934579, IDF: 0,309804 | Up/Down
+    - MICROSOFT - Count: 1, TF: 0,0046729, IDF: 0,408935 | Up/Down
+ - MICROSOFT - Count: 1, TF: 0,0046729, IDF: 0,408935 | Entry
+Result 4 | kak-nastroit-rabotu-komandy-v-rezhime-avrala.txt | Score: 0.0123824 | File size: 398
+ - ПРОДУКТ - Count: 1, TF: 0,00251256, IDF: 0,443697 | Entry
+ - КОМПАНИЯ - Count: 3, TF: 0,00753769, IDF: 0,267606 | Entry
+ - MICROSOFT - Count: 0, TF: 0, IDF: 0,408935 | Entry
+    - КОМПАНИЯ - Count: 3, TF: 0,00753769, IDF: 0,267606 | Up/Down
+Result 5 | how-to-become-tester.txt | Score: 0.0100115 | File size: 849
+ - ПРОДУКТ - Count: 2, TF: 0,00235571, IDF: 0,443697 | Entry
+ - КОМПАНИЯ - Count: 9, TF: 0,0106007, IDF: 0,267606 | Entry
+ - MICROSOFT - Count: 0, TF: 0, IDF: 0,408935 | Entry
+    - КОМПАНИЯ - Count: 9, TF: 0,0106007, IDF: 0,267606 | Up/Down
+Result 6 | gde-tusit-ajtishniku-v-moskve.txt | Score: 0.0085475 | File size: 584
+ - ПРОДУКТ - Count: 2, TF: 0,00342466, IDF: 0,443697 | Entry
+ - КОМПАНИЯ - Count: 3, TF: 0,00513699, IDF: 0,267606 | Entry
+ - MICROSOFT - Count: 0, TF: 0, IDF: 0,408935 | Entry
+    - КОМПАНИЯ - Count: 3, TF: 0,00513699, IDF: 0,267606 | Up/Down
+Result 7 | data-scientists-spend-most-of-their-time-not-on-products.txt | Score: 0.00739814 | File size: 777
+ - ПРОДУКТ - Count: 1, TF: 0,001287, IDF: 0,443697 | Entry
+ - КОМПАНИЯ - Count: 6, TF: 0,00772201, IDF: 0,267606 | Entry
+ - MICROSOFT - Count: 0, TF: 0, IDF: 0,408935 | Entry
+    - КОМПАНИЯ - Count: 6, TF: 0,00772201, IDF: 0,267606 | Up/Down
+Result 8 | scrum-advices.txt | Score: 0.00640182 | File size: 730
+ - ПРОДУКТ - Count: 2, TF: 0,00273973, IDF: 0,443697 | Entry
+ - КОМПАНИЯ - Count: 1, TF: 0,00136986, IDF: 0,267606 | Entry
+    - GOOGLE - Count: 2, TF: 0,00273973, IDF: 0,309804 | Up/Down
+    - MICROSOFT - Count: 1, TF: 0,00136986, IDF: 0,408935 | Up/Down
+ - MICROSOFT - Count: 1, TF: 0,00136986, IDF: 0,408935 | Entry
+    - КОМПАНИЯ - Count: 1, TF: 0,00136986, IDF: 0,267606 | Up/Down
+Result 9 | kak-kubernetes-povyshaet-cennost-it-navykov.txt | Score: 0.00619307 | File size: 792
+ - ПРОДУКТ - Count: 2, TF: 0,00252525, IDF: 0,443697 | Entry
+ - КОМПАНИЯ - Count: 4, TF: 0,00505051, IDF: 0,267606 | Entry
+ - MICROSOFT - Count: 0, TF: 0, IDF: 0,408935 | Entry
+    - КОМПАНИЯ - Count: 4, TF: 0,00505051, IDF: 0,267606 | Up/Down
+Result 10 | gpu-nvidia-gtc-2019.txt | Score: 0.0051119 | File size: 635
+ - ПРОДУКТ - Count: 1, TF: 0,0015748, IDF: 0,443697 | Entry
+ - КОМПАНИЯ - Count: 2, TF: 0,00314961, IDF: 0,267606 | Entry
+    - GOOGLE - Count: 1, TF: 0,0015748, IDF: 0,309804 | Up/Down
+ - MICROSOFT - Count: 0, TF: 0, IDF: 0,408935 | Entry
+    - КОМПАНИЯ - Count: 2, TF: 0,00314961, IDF: 0,267606 | Up/Down
+
+Request 19: Как попасть на работу в Google
+Result 1 | speech-recoginition-in-the-browser.txt | Score: 0.0132435 | File size: 214
+ - КАК - Count: 1, TF: 0,0046729, IDF: 0,00877392 | Entry
+ - НА - Count: 5, TF: 0,0233645, IDF: 0,00436481 | Entry
+ - РАБОТА - Count: 1, TF: 0,0046729, IDF: 0,107905 | Entry
+ - В - Count: 9, TF: 0,0420561, IDF: 0 | Entry
+ - GOOGLE - Count: 2, TF: 0,00934579, IDF: 0,309804 | Entry
+Result 2 | it-market-and-quarantine-measures.txt | Score: 0.0113412 | File size: 649
+ - КАК - Count: 7, TF: 0,0107858, IDF: 0,00877392 | Entry
+ - НА - Count: 16, TF: 0,0246533, IDF: 0,00436481 | Entry
+ - РАБОТА - Count: 10, TF: 0,0154083, IDF: 0,107905 | Entry
+ - В - Count: 20, TF: 0,0308166, IDF: 0 | Entry
+ - GOOGLE - Count: 0, TF: 0, IDF: 0,309804 | Entry
+    - КОМПАНИЯ - Count: 14, TF: 0,0215716, IDF: 0,267606 | Up/Down
+Result 3 | virtual-reality-devices.txt | Score: 0.0107111 | File size: 587
+ - КАК - Count: 4, TF: 0,00681431, IDF: 0,00877392 | Entry
+ - НА - Count: 11, TF: 0,0187394, IDF: 0,00436481 | Entry
+ - В - Count: 17, TF: 0,0289608, IDF: 0 | Entry
+ - GOOGLE - Count: 5, TF: 0,00851789, IDF: 0,309804 | Entry
+    - КОМПАНИЯ - Count: 7, TF: 0,011925, IDF: 0,267606 | Up/Down
+Result 4 | kak-nastroit-rabotu-komandy-v-rezhime-avrala.txt | Score: 0.00530507 | File size: 398
+ - КАК - Count: 1, TF: 0,00251256, IDF: 0,00877392 | Entry
+ - НА - Count: 8, TF: 0,0201005, IDF: 0,00436481 | Entry
+ - РАБОТА - Count: 2, TF: 0,00502513, IDF: 0,107905 | Entry
+ - В - Count: 12, TF: 0,0301508, IDF: 0 | Entry
+ - GOOGLE - Count: 0, TF: 0, IDF: 0,309804 | Entry
+    - КОМПАНИЯ - Count: 3, TF: 0,00753769, IDF: 0,267606 | Up/Down
+Result 5 | how-to-become-tester.txt | Score: 0.0051574 | File size: 849
+ - КАК - Count: 10, TF: 0,0117786, IDF: 0,00877392 | Entry
+ - НА - Count: 11, TF: 0,0129564, IDF: 0,00436481 | Entry
+ - РАБОТА - Count: 8, TF: 0,00942285, IDF: 0,107905 | Entry
+ - В - Count: 25, TF: 0,0294464, IDF: 0 | Entry
+ - GOOGLE - Count: 0, TF: 0, IDF: 0,309804 | Entry
+    - КОМПАНИЯ - Count: 9, TF: 0,0106007, IDF: 0,267606 | Up/Down
+Result 6 | data-scientists-spend-most-of-their-time-not-on-products.txt | Score: 0.00440868 | File size: 777
+ - КАК - Count: 2, TF: 0,002574, IDF: 0,00877392 | Entry
+ - НА - Count: 14, TF: 0,018018, IDF: 0,00436481 | Entry
+ - РАБОТА - Count: 7, TF: 0,00900901, IDF: 0,107905 | Entry
+ - В - Count: 19, TF: 0,024453, IDF: 0 | Entry
+ - GOOGLE - Count: 0, TF: 0, IDF: 0,309804 | Entry
+    - КОМПАНИЯ - Count: 6, TF: 0,00772201, IDF: 0,267606 | Up/Down
+Result 7 | scrum-advices.txt | Score: 0.00414549 | File size: 730
+ - КАК - Count: 7, TF: 0,00958904, IDF: 0,00877392 | Entry
+ - НА - Count: 7, TF: 0,00958904, IDF: 0,00436481 | Entry
+ - РАБОТА - Count: 6, TF: 0,00821918, IDF: 0,107905 | Entry
+ - В - Count: 27, TF: 0,0369863, IDF: 0 | Entry
+ - GOOGLE - Count: 2, TF: 0,00273973, IDF: 0,309804 | Entry
+    - КОМПАНИЯ - Count: 1, TF: 0,00136986, IDF: 0,267606 | Up/Down
+Result 8 | chto-takoe-cls-sajta-i-pochemu-on-vazhen.txt | Score: 0.00383752 | File size: 815
+ - КАК - Count: 10, TF: 0,0122699, IDF: 0,00877392 | Entry
+ - НА - Count: 13, TF: 0,0159509, IDF: 0,00436481 | Entry
+ - В - Count: 16, TF: 0,0196319, IDF: 0 | Entry
+ - GOOGLE - Count: 5, TF: 0,00613497, IDF: 0,309804 | Entry
+Result 9 | meltdown-spectre-vulnerabilities-overview.txt | Score: 0.00336848 | File size: 1249
+ - КАК - Count: 11, TF: 0,00880705, IDF: 0,00877392 | Entry
+ - НА - Count: 28, TF: 0,0224179, IDF: 0,00436481 | Entry
+ - РАБОТА - Count: 5, TF: 0,0040032, IDF: 0,107905 | Entry
+ - В - Count: 28, TF: 0,0224179, IDF: 0 | Entry
+ - GOOGLE - Count: 5, TF: 0,0040032, IDF: 0,309804 | Entry
+    - КОМПАНИЯ - Count: 5, TF: 0,0040032, IDF: 0,267606 | Up/Down
+Result 10 | typical-day-of-a-software-development-chief.txt | Score: 0.00333392 | File size: 802
+ - КАК - Count: 12, TF: 0,0149626, IDF: 0,00877392 | Entry
+ - НА - Count: 11, TF: 0,0137157, IDF: 0,00436481 | Entry
+ - РАБОТА - Count: 9, TF: 0,0112219, IDF: 0,107905 | Entry
+ - В - Count: 32, TF: 0,0399002, IDF: 0 | Entry
+ - GOOGLE - Count: 1, TF: 0,00124688, IDF: 0,309804 | Entry
+
+Request 20: Как быстрее научиться программировать
+Result 1 | sozdajom-igru-na-android-s-pomoshhju-mit-app-inventor.txt | Score: 0.00822541 | File size: 517
+ - КАК - Count: 2, TF: 0,00386847, IDF: 0,00877392 | Entry
+ - ПРОГРАММИРОВАТЬ - Count: 1, TF: 0,00193424, IDF: 1,69897 | Entry
+Result 2 | pochemu-vam-stoit-vybrat-node-js-dlja-razrabotki-servernyh-prilozhenij.txt | Score: 0.00699581 | File size: 1109
+ - КАК - Count: 13, TF: 0,0117223, IDF: 0,00877392 | Entry
+ - БЫСТРЕЕ - Count: 5, TF: 0,00450857, IDF: 0,744727 | Entry
+ - НАУЧИТЬСЯ - Count: 1, TF: 0,000901713, IDF: 1,39794 | Entry
+Result 3 | kak-nastroit-rabotu-komandy-v-rezhime-avrala.txt | Score: 0.00541794 | File size: 398
+ - КАК - Count: 1, TF: 0,00251256, IDF: 0,00877392 | Entry
+ - БЫСТРЕЕ - Count: 1, TF: 0,00251256, IDF: 0,744727 | Entry
+Result 4 | cpu-and-gpu.txt | Score: 0.00490492 | File size: 428
+ - КАК - Count: 2, TF: 0,0046729, IDF: 0,00877392 | Entry
+ - БЫСТРЕЕ - Count: 1, TF: 0,00233645, IDF: 0,744727 | Entry
+Result 5 | python-vs-r-for-data-science.txt | Score: 0.00381293 | File size: 1250
+ - КАК - Count: 14, TF: 0,0112, IDF: 0,00877392 | Entry
+ - ПРОГРАММИРОВАТЬ - Count: 2, TF: 0,0016, IDF: 1,69897 | Entry
+Result 6 | kak-kubernetes-povyshaet-cennost-it-navykov.txt | Score: 0.00363496 | File size: 792
+ - КАК - Count: 4, TF: 0,00505051, IDF: 0,00877392 | Entry
+ - БЫСТРЕЕ - Count: 2, TF: 0,00252525, IDF: 0,744727 | Entry
+Result 7 | frontend-roadmap-2021.txt | Score: 0.00321977 | File size: 844
+ - КАК - Count: 12, TF: 0,014218, IDF: 0,00877392 | Entry
+ - НАУЧИТЬСЯ - Count: 1, TF: 0,00118483, IDF: 1,39794 | Entry
+Result 8 | processors-architectures-review.txt | Score: 0.00302898 | File size: 885
+ - КАК - Count: 5, TF: 0,00564972, IDF: 0,00877392 | Entry
+ - БЫСТРЕЕ - Count: 2, TF: 0,00225989, IDF: 0,744727 | Entry
+Result 9 | programmers-lifehacks.txt | Score: 0.003 | File size: 890
+ - КАК - Count: 5, TF: 0,00561798, IDF: 0,00877392 | Entry
+ - БЫСТРЕЕ - Count: 2, TF: 0,00224719, IDF: 0,744727 | Entry
+Result 10 | tools-for-vue-js.txt | Score: 0.0020755 | File size: 732
+ - КАК - Count: 2, TF: 0,00273224, IDF: 0,00877392 | Entry
+ - БЫСТРЕЕ - Count: 1, TF: 0,00136612, IDF: 0,744727 | Entry

@@ -217,9 +217,9 @@ void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
                             for (auto &word: descriptionSynonim->second) {
                                 if (word->docName == filename) {
                                     if (requestWordSynonim.second)
-                                        score += 0.3 * word->idf * (word->tf * (K1 + 1)) / (word->tf + K1 * (1 - B + B * fileSize / averageLength));
-                                    else
                                         score += 0.9 * word->idf * (word->tf * (K1 + 1)) / (word->tf + K1 * (1 - B + B * fileSize / averageLength));
+                                    else
+                                        score += 0.6 * word->idf * (word->tf * (K1 + 1)) / (word->tf + K1 * (1 - B + B * fileSize / averageLength));
                                 }
                             }
                         }
@@ -251,7 +251,7 @@ void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
                     auto description = phraseDescriptions.find(requestWord);
                     for (auto &word: description->second) {
                         if (word->docName == filename) {
-                            wcout << " - " << requestWord << " - Count: " << word->positions.size() << ", TF: " << word->tf << ", IDF: " << word->idf << endl;
+                            wcout << " - " << requestWord << " - Count: " << word->positions.size() << ", TF: " << word->tf << ", IDF: " << word->idf << " | Entry" << endl;
                         }
                     }
                 }
@@ -262,7 +262,11 @@ void handleRequest(unordered_map<wstring, vector<Entry*>> &phraseDescriptions,
                             auto descriptionSynonim  = phraseDescriptions.find(requestWordSynonim.first);
                             for (auto &word: descriptionSynonim->second) {
                                 if (word->docName == filename && !word->positions.empty()) {
-                                    wcout << "    - " << requestWordSynonim.first << " - Count: " << word->positions.size() << ", TF: " << word->tf << ", IDF: " << word->idf << endl;
+                                    wcout << "    - " << requestWordSynonim.first << " - Count: " << word->positions.size() << ", TF: " << word->tf << ", IDF: " << word->idf << " | ";
+                                    if (requestWordSynonim.second)
+                                        cout << "Synonim" << endl;
+                                    else
+                                        cout << "Up/Down" << endl;
                                 }
                             }
                         }
